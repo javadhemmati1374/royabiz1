@@ -12,10 +12,7 @@ export default function About() {
           <div className="container py-4 pt-48 mx-auto">
             <div className="flex flex-col mx-auto xl:mx-0 xl:text-left">
               <div className="flex gap-4 justify-start items-center text-[64px] font-bold text-secondary z-0">
-                With RoyaBiz
-              </div>
-              <div className="text-[64px] font-bold text-secondary -mt-4 z-0">
-                Build your royal business
+                About
               </div>
               <p className="text-[24px] mt-2 leading-8 max-w-[850px] mx-auto xl:mx-0 z-0">
                 Helping brands to stand out in the digital era. Together we will
