@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    /* --foreground: 220, 7%, 8%; */
+    --foreground: 225, 7%, 12%;
+
+    --primary: 300, 40%, 29%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220, 7%, 8%;
+    --secondary-foreground: 0 0% 100%;
+    --tertiary: 300, 57%, 20%;
+
+    --border: 0, 0%, 48%;
+    --input: 8 82% 92%;
+    --ring: 9 99% 67%;
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  @apply bg-background overflow-hidden box-content cursor-wait;
+}
+
+.works-slide {
+  @apply w-[440px] h-[308px] bg-no-repeat relative bg-bottom rounded-3xl;
+}
+.works-slide > img {
+  @apply rounded-3xl;
+}
