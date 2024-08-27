@@ -144,7 +144,7 @@ export default function ProjectsList() {
       </div>
       <div className="relative py-10 flex justify-center items-center mt-16 overflow-hidden">
         <Link
-          href="/work"
+          href="/works"
           className="z-[1] block w-[16rem] h-[5rem] rounded-full"
         >
           <Button
