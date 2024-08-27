@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <main>
       <section className="h-[84vh]">
-        <div className="h-[80rem] w-full bg-white  bg-grid-black/[0.1] relative ">
+        <div className="h-[80rem] w-full bg-white bg-grid-black/[0.1] relative ">
           {/* Radial gradient for the container to give a faded look */}
           <div className="absolute pointer-events-none inset-0 !z-0 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
 
